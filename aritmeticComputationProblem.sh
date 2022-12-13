@@ -1,5 +1,7 @@
 echo "Welcome to Sorting Aritmetic Comutation Problem"
 
-read -p "Enter the first input a: " 
-read -p "Enter the second input b: " 
-read -p "Enter the third input c: " 
+a=10
+b=5
+c=2
+
+echo $(($a + $b * $c))
