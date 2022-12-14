@@ -1,7 +1,14 @@
 echo "Welcome to Sorting Aritmetic Comutation Problem"
 
-a=10
-b=5
-c=2
+declare -A results
+results[ "uc2" ] =20
+results[ "uc3" ] =52
+results[ "uc4" ] =4
+results[ "uc5" ] =2
 
-echo $(($a % $b + $c))
+for UC2 in ${results[@]};
+do
+echo $UC2;
+done
+
+
